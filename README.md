@@ -10,3 +10,4 @@ import cryptocode
 import PySimpleGUI
 
 *Bibliotecas hashlib, cryptocode e PySimpleGui necessitam ser instaladas pelo comando pip.
+** Senha padrão da aplicação: 1234 -> (para mudança altere variavel self.k com um hash SHA512)
