@@ -47,7 +47,7 @@ class janela(texto):
     def __init__ (self):
         gui.theme('DarkGrey1')
         sen = gui.popup_get_text('Senha de Acesso: ',password_char='*',font='Arial 14',button_color=('white','#1C1C1C' ),size=(14,20))
-        self.k ='5ec713ba26c0b1afb766143ed3fa4beab0d56dc8863c7817a46f911257e764de0311fbef58e5b23fde281432bb422de4da3a808e92221488196cd4959822a0a1'
+        self.k ='d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db'
         if sen != '':
             hm = hashlib.sha512(sen.encode())
             hashs = hm.hexdigest()
